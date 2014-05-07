@@ -1,0 +1,25 @@
+{
+  "name": "dalekmob",
+  "version": "0.0.1",
+  "description": "Add browsermob proxy support to dalek, allowing verification of requests made in dalek tests via HARs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikki/dalekmob.git"
+  },
+  "author": "Vikki <vikki.read@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikki/dalekmob/issues"
+  },
+  "homepage": "https://github.com/vikki/dalekmob",
+  "dependencies": {
+    "q": "~1.0.1",
+    "chai": "~1.9.1",
+    "dalekjs": "0.0.8",
+    "browsermob-proxy": "~1.0.5"
+  }
+}
