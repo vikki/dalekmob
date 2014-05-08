@@ -22,7 +22,7 @@ In any test where you wish to use dalekmob, require dalekmob.
 This will expose 2 functions: 
 
 - dalekmob.setupBrowsermob() - wraps the intern suite setup to setup the proxy before the session is created, thus allowing tests to go through the proxy - call this from your test's module definition
-- dalekmob.addGetHAR(remote);  - adds a getHAR function to the remote, which can be used to verify requests and anything else the HAR provides in your test.
+- dalekmob.addGetHAR(remote);  - adds assert.requestMatching(string), which can be used to verify which URLs were requested by your test
 
 You can then write tests that look a bit like this (actual proper readme to follow once this is a grown up project): 
 
