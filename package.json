@@ -18,7 +18,7 @@
   "homepage": "https://github.com/vikki/dalekmob",
   "dependencies": {
     "q": "~1.0.1",
-    "chai": "~1.9.1",
+    "chai": "~1.10.0",
     "dalekjs": "0.0.8",
     "browsermob-proxy": "~1.0.5"
   }
