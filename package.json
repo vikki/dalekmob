@@ -4,7 +4,9 @@
   "description": "Add browsermob proxy support to dalek, allowing verification of requests made in dalek tests via HARs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
     "q": "~1.0.1",
     "chai": "~1.9.1",
     "dalekjs": "0.0.8",
-    "browsermob-proxy": "~1.0.5"
-  }
+    "browsermob-proxy": "~1.0.5",
+    "snyk": "^1.643.0"
+  },
+  "snyk": true
 }

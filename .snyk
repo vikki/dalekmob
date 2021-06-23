@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2021-06-23T20:56:05.377Z'
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-06-23T20:56:05.377Z'
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-06-23T20:56:05.377Z'
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-06-23T20:56:05.377Z'
+  'npm:request:20160119':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request:
+        patched: '2021-06-23T20:56:05.377Z'
+  'npm:tough-cookie:20170905':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2021-06-23T20:56:05.377Z'
+  'npm:tunnel-agent:20170305':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2021-06-23T20:56:05.377Z'
