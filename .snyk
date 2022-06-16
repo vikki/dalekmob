@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > hawk:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:hoek:20180212':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2022-06-16T08:24:57.962Z'
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2022-06-16T08:24:57.962Z'
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2022-06-16T08:24:57.962Z'
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:http-signature:20150122':
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > http-signature:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:mime:20170907':
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > form-data > mime:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:minimatch:20160620':
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > archiver > glob > minimatch:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:request:20160119':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request:
+        patched: '2022-06-16T08:24:57.962Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:tough-cookie:20170905':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2022-06-16T08:24:57.962Z'
+  'npm:tunnel-agent:20170305':
+    - dalekjs > dalek-browser-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2022-06-16T08:24:57.962Z'
+    - dalekjs > dalek-driver-native > dalek-internal-webdriver > wd > request > tunnel-agent:
+        patched: '2022-06-16T08:24:57.962Z'
